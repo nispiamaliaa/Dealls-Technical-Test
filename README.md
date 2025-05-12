@@ -22,7 +22,7 @@ I structured my scripts using the Playwright Test Runner, utilizing describe blo
 
 This project contains end-to-end (E2E) test cases using Playwright to validate the registration and login flows for Mentee and Mentor users on a job-seeking platform.
 
-📄 Automation test: ['tests/dealls.test.js'] (tests/dealls.test.js)
+📄 Automation test: [`tests/dealls.test.js`](tests/dealls.test.js)
 
 **✅  Features Tested**
 
