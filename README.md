@@ -24,7 +24,7 @@ This project contains end-to-end (E2E) test cases using Playwright to validate t
 
 📄 Automation test: [`tests/dealls.test.js`](tests/dealls.test.js)
 
-**✅  Features Tested**
+#### ✅ Features Tested
 
     🧍‍♂️  Mentee Flows
         1. Register with valid credentials
@@ -37,16 +37,8 @@ This project contains end-to-end (E2E) test cases using Playwright to validate t
         1. Log in with valid credentials
         2. Log in with invalid credentials
         3. Reset password flow
-        
-### Challenge 3: Bug Investigation
 
-**Bug Title:** Links Redirect to Wrong Domain (*.run.app)  
-📄 Bug report → [`docs/bug-report.md`](docs/bug-report.md)  
-🎥 [Recording Screenshot](https://jam.dev/c/7dc854e5-6912-4e1d-b625-1403308a6fcc)
-
-
-
-## 🚀 Getting Started
+#### 🚀 Getting Started
 
     1.  Clone the repository
         git clone https://github.com/your-username/your-repo.git
@@ -64,26 +56,33 @@ This project contains end-to-end (E2E) test cases using Playwright to validate t
         To run a specific test:
         npx playwright test tests/registration-login.spec.ts -g "Mentee can register with valid credentials"
 
-**🛠️  Configuration**
+#### 🛠️ Configuration
 
-    You can configure base URL, browsers, reporters, etc., in playwright.config.ts.
+    You can configure base URL, browsers, reporters, etc., in playwright.config.js.
     Example:
     use: {
         baseURL: 'https://your-frontend-domain.com',
         browserName: 'chromium',
     }
 
-**🔒  Notes**
+#### 🔒 Notes
 
     1. Make sure the test data for register (e.g. name, phone, email) is unique for every run or reset after each test.
     2. Avoid using production data—prefer staging environments.
     3. The test uses hardcoded credentials for login flows. Store secrets in environment variables for secure testing in CI/CD.
 
-**🧩  Future Improvements**
+#### 🧩 Future Improvements
 
     1. Modularize helpers into a utils/ or page-objects/ folder
     2. Add test reporting (HTML, Allure)
-    3. Integrate with CI tools (e.g. GitHub Actions, GitLab CI, Jenkins)
+    3. Integrate with CI tools
+
+### Challenge 3: Bug Investigation
+
+**Bug Title:** Links Redirect to Wrong Domain
+📄 Bug report → [`docs/bug-report.md`](docs/bug-report.md)  
+🎥 [Recording Screenshot](https://jam.dev/c/7dc854e5-6912-4e1d-b625-1403308a6fcc)
+
 
 # 👤  Author
 
